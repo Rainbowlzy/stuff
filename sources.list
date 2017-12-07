@@ -1,0 +1,17 @@
+#教科网
+#中科大
+deb http://debian.ustc.edu.cn/debian testing main non-free contrib
+deb-src http://debian.ustc.edu.cn/debian testing main non-free contrib
+deb http://debian.ustc.edu.cn/debian-non-US testing/non-US main non-free contrib
+deb-src http://debian.ustc.edu.cn/debian-non-US testing/non-US main non-free contrib
+deb http://debian.ustc.edu.cn/debian-security testing/updates main
+#公网
+# ftp.linuxforum.net 61.152.210.194
+deb ftp://ftp.linuxforum.net/debian/ unstable main non-free contrib
+deb ftp://ftp.linuxforum.net/debian-non-US/ unstable/non-US main non-free contrib
+# mirrors.geekbone.org 61.172.200.169
+deb http://mirrors.geekbone.org/debian/ unstable main non-free contrib
+deb http://mirrors.geekbone.org/debian-non-US/ unstable/non-US main non-free contrib
+# debian.cn99.com 61.132.102.124
+deb http://debian.cn99.com/debian/ unstable main non-free contrib
+deb http://debian.cn99.com/debian-non-US/ unstable/non-US main non-free contriblinux
