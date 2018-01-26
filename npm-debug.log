@@ -1,0 +1,195 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react-native@0.26' ]
+2 info using npm@2.14.6
+3 info using node@v6.3.1
+4 verbose install initial load of /Users/apple/branchs/package.json
+5 verbose readDependencies loading dependencies from /Users/apple/branchs/package.json
+6 silly cache add args [ 'react-native@0.26', null ]
+7 verbose cache add spec react-native@0.26
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'react-native@0.26',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'react-native',
+8 silly cache add   rawSpec: '0.26',
+8 silly cache add   spec: '>=0.26.0 <0.27.0',
+8 silly cache add   type: 'range' }
+9 silly addNamed react-native@>=0.26.0 <0.27.0
+10 verbose addNamed ">=0.26.0 <0.27.0" is a valid semver range for react-native
+11 silly addNameRange { name: 'react-native',
+11 silly addNameRange   range: '>=0.26.0 <0.27.0',
+11 silly addNameRange   hasData: false }
+12 silly mapToRegistry name react-native
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npm.taobao.org/
+15 silly mapToRegistry uri https://registry.npm.taobao.org/react-native
+16 verbose addNameRange registry:https://registry.npm.taobao.org/react-native not in flight; fetching
+17 verbose request uri https://registry.npm.taobao.org/react-native
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 1:18:37 AM
+20 verbose request id f85f04ee6dcac4ac
+21 http request GET https://registry.npm.taobao.org/react-native
+22 http 200 https://registry.npm.taobao.org/react-native
+23 verbose headers { date: 'Mon, 08 Aug 2016 17:18:38 GMT',
+23 verbose headers   'content-type': 'application/json; charset=utf-8',
+23 verbose headers   'content-length': '527578',
+23 verbose headers   connection: 'keep-alive',
+23 verbose headers   'x-current-requests': '1',
+23 verbose headers   etag: '"80cda-6LR9Rh1thFy0FWcvgtZnuA"',
+23 verbose headers   'x-readtime': '145' }
+24 silly get cb [ 200,
+24 silly get   { date: 'Mon, 08 Aug 2016 17:18:38 GMT',
+24 silly get     'content-type': 'application/json; charset=utf-8',
+24 silly get     'content-length': '527578',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-current-requests': '1',
+24 silly get     etag: '"80cda-6LR9Rh1thFy0FWcvgtZnuA"',
+24 silly get     'x-readtime': '145' } ]
+25 verbose get saving react-native to /Users/apple/.npm/registry.npm.taobao.org/react-native/.cache.json
+26 silly addNameRange number 2 { name: 'react-native',
+26 silly addNameRange   range: '>=0.26.0 <0.27.0',
+26 silly addNameRange   hasData: true }
+27 silly addNameRange versions [ 'react-native',
+27 silly addNameRange   [ '0.32.0-rc.0',
+27 silly addNameRange     '0.31.0',
+27 silly addNameRange     '0.31.0-rc.1',
+27 silly addNameRange     '0.31.0-rc.0',
+27 silly addNameRange     '0.30.0',
+27 silly addNameRange     '0.29.2',
+27 silly addNameRange     '0.29.1',
+27 silly addNameRange     '0.29.0',
+27 silly addNameRange     '0.30.0-rc.0',
+27 silly addNameRange     '0.29.0-rc.3',
+27 silly addNameRange     '0.29.0-rc.2',
+27 silly addNameRange     '0.29.0-rc.1',
+27 silly addNameRange     '0.29.0-rc.0',
+27 silly addNameRange     '0.28.0',
+27 silly addNameRange     '0.27.2',
+27 silly addNameRange     '0.27.1',
+27 silly addNameRange     '0.28.0-rc.0',
+27 silly addNameRange     '0.27.0',
+27 silly addNameRange     '0.27.0-rc3',
+27 silly addNameRange     '0.26.3',
+27 silly addNameRange     '0.27.0-rc2',
+27 silly addNameRange     '0.27.0-rc1',
+27 silly addNameRange     '0.26.2',
+27 silly addNameRange     '0.26.1',
+27 silly addNameRange     '0.27.0-rc',
+27 silly addNameRange     '0.26.0',
+27 silly addNameRange     '0.25.1',
+27 silly addNameRange     '0.26.0-rc',
+27 silly addNameRange     '0.24.1',
+27 silly addNameRange     '0.24.0',
+27 silly addNameRange     '0.25.0-rc',
+27 silly addNameRange     '0.24.0-rc5',
+27 silly addNameRange     '0.24.0-rc4',
+27 silly addNameRange     '0.23.1',
+27 silly addNameRange     '0.24.0-rc3',
+27 silly addNameRange     '0.24.0-rc2',
+27 silly addNameRange     '0.23.0',
+27 silly addNameRange     '0.24.0-rc1',
+27 silly addNameRange     '0.24.0-rc',
+27 silly addNameRange     '0.23.0-rc4',
+27 silly addNameRange     '0.23.0-rc3',
+27 silly addNameRange     '0.23.0-rc1',
+27 silly addNameRange     '0.22.2',
+27 silly addNameRange     '0.22.1',
+27 silly addNameRange     '0.22.0',
+27 silly addNameRange     '0.22.0-rc5',
+27 silly addNameRange     '0.22.0-rc4',
+27 silly addNameRange     '0.22.0-rc3',
+27 silly addNameRange     '0.22.0-rc',
+27 silly addNameRange     '0.21.0',
+27 silly addNameRange     '0.21.0-rc',
+27 silly addNameRange     '0.20.0',
+27 silly addNameRange     '0.20.0-rc1',
+27 silly addNameRange     '0.19.0',
+27 silly addNameRange     '0.19.0-rc',
+27 silly addNameRange     '0.18.1',
+27 silly addNameRange     '0.18.0',
+27 silly addNameRange     '0.18.0-rc',
+27 silly addNameRange     '0.17.0',
+27 silly addNameRange     '0.17.0-rc',
+27 silly addNameRange     '0.16.0',
+27 silly addNameRange     '0.16.0-rc',
+27 silly addNameRange     '0.15.0',
+27 silly addNameRange     '0.14.2',
+27 silly addNameRange     '0.15.0-rc',
+27 silly addNameRange     '0.14.1',
+27 silly addNameRange     '0.14.0',
+27 silly addNameRange     '0.14.0-rc',
+27 silly addNameRange     '0.13.2',
+27 silly addNameRange     '0.13.1',
+27 silly addNameRange     '0.13.0',
+27 silly addNameRange     '0.13.0-rc',
+27 silly addNameRange     '0.12.0',
+27 silly addNameRange     '0.11.4',
+27 silly addNameRange     '0.11.3',
+27 silly addNameRange     '0.12.0-rc',
+27 silly addNameRange     '0.11.2',
+27 silly addNameRange     '0.11.1',
+27 silly addNameRange     '0.11.0',
+27 silly addNameRange     '0.10.1',
+27 silly addNameRange     '0.11.0-rc',
+27 silly addNameRange     '0.10.0',
+27 silly addNameRange     '0.10.0-rc',
+27 silly addNameRange     '0.9.0',
+27 silly addNameRange     '0.9.0-rc',
+27 silly addNameRange     '0.8.0',
+27 silly addNameRange     '0.8.0-rc.2',
+27 silly addNameRange     '0.8.0-rc',
+27 silly addNameRange     '0.7.1',
+27 silly addNameRange     '0.7.0-rc.2',
+27 silly addNameRange     '0.7.0-rc',
+27 silly addNameRange     '0.6.0',
+27 silly addNameRange     '0.6.0-rc',
+27 silly addNameRange     '0.5.0',
+27 silly addNameRange     '0.5.0-rc1',
+27 silly addNameRange     '0.4.4',
+27 silly addNameRange     '0.4.3',
+27 silly addNameRange     '0.4.2',
+27 silly addNameRange     '0.4.1',
+27 silly addNameRange     '0.4.0',
+27 silly addNameRange     ... 18 more items ] ]
+28 silly addNamed react-native@0.26.3
+29 verbose addNamed "0.26.3" is a plain semver version for react-native
+30 silly mapToRegistry name react-native
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npm.taobao.org/
+33 silly mapToRegistry uri https://registry.npm.taobao.org/react-native
+34 verbose addRemoteTarball https://registry.npm.taobao.org/react-native/download/react-native-0.26.3.tgz not in flight; adding
+35 verbose addRemoteTarball [ 'https://registry.npm.taobao.org/react-native/download/react-native-0.26.3.tgz',
+35 verbose addRemoteTarball   'f8900cfda923b17079df1aba9a34e145900f6ac5' ]
+36 info retry fetch attempt 1 at 1:18:43 AM
+37 info attempt registry request try #1 at 1:18:43 AM
+38 http fetch GET https://registry.npm.taobao.org/react-native/download/react-native-0.26.3.tgz
+39 http fetch 200 https://registry.npm.taobao.org/react-native/download/react-native-0.26.3.tgz
+40 info retry will retry, error on last attempt: Error: 140735182819328:error:1408F119:SSL routines:SSL3_GET_RECORD:decryption failed or bad record mac:../deps/openssl/openssl/ssl/s3_pkt.c:532:
+41 info retry will retry, error on last attempt: Error: 140735182819328:error:1408F119:SSL routines:SSL3_GET_RECORD:decryption failed or bad record mac:../deps/openssl/openssl/ssl/s3_pkt.c:532:
+42 silly fetchAndShaCheck shasum f8900cfda923b17079df1aba9a34e145900f6ac5
+43 verbose stack Error: shasum check failed for /var/folders/j0/v760t6w94d50bql8hlh3rxfc0000gn/T/npm-737-9c41ac1a/registry.npm.taobao.org/react-native/download/react-native-0.26.3.tgz
+43 verbose stack Expected: f8900cfda923b17079df1aba9a34e145900f6ac5
+43 verbose stack Actual:   3b9693a5b4b85782d6f120b611d3be36cb8ec63d
+43 verbose stack From:     https://registry.npm.taobao.org/react-native/download/react-native-0.26.3.tgz
+43 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/sha/index.js:25:8
+43 verbose stack     at ReadStream.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/sha/index.js:72:7)
+43 verbose stack     at emitNone (events.js:91:20)
+43 verbose stack     at ReadStream.emit (events.js:185:7)
+43 verbose stack     at endReadableNT (_stream_readable.js:975:12)
+43 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+43 verbose stack     at process._tickCallback (internal/process/next_tick.js:98:9)
+44 verbose cwd /Users/apple/branchs
+45 error Darwin 15.6.0
+46 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "react-native@0.26"
+47 error node v6.3.1
+48 error npm  v2.14.6
+49 error shasum check failed for /var/folders/j0/v760t6w94d50bql8hlh3rxfc0000gn/T/npm-737-9c41ac1a/registry.npm.taobao.org/react-native/download/react-native-0.26.3.tgz
+49 error Expected: f8900cfda923b17079df1aba9a34e145900f6ac5
+49 error Actual:   3b9693a5b4b85782d6f120b611d3be36cb8ec63d
+49 error From:     https://registry.npm.taobao.org/react-native/download/react-native-0.26.3.tgz
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
